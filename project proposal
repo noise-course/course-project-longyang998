@@ -1,0 +1,54 @@
+Project Proposal
+Names:
+Mariska Kassi, mariskakassi@uchicago.edu, Data preprocessing and model evaluation
+Longyang Li, longyang@uchicago.edu, Feature engineering and algorithm implementation
+Natalie Gergov, ngergov@uchicago.edu, Research and documentation lead
+●
+●
+●
+●
+●
+●
+●
+Project title
+○
+Classifying VPN and Non-VPN Traffic Using Machine Learning
+Project summary:
+○
+Problem : It is difficult to identify what kind of activity is happening when
+people use VPN because their network traffic is encrypted.
+○
+Important: Being able to distinguish VPN from non-VPN traffic helps improve
+network management and security monitoring.
+○
+Relation to Course Theme: This project lies at the intersection of networking
+and machine learning, applying ML models to analyze and classify encrypted
+traffic patterns.
+○
+Related Work: Prior research (e.g., NetML and nPrint benchmarks) explores
+flow-based feature extraction for encrypted traffic identification, which we plan to
+build upon.
+○
+Goal: Our primary goal is research and reproducibility — to replicate and extend
+previous results by testing additional algorithms and comparing performance
+metrics.
+Data: What data will you be using for the project?
+○
+Dataset found on the site
+https://nprint.github.io/benchmarks/application_identification/netml_vpn-nonvpn.
+html
+Machine learning: What models do you expect to try?
+○
+Random forest, Naive Bayes, Lasso regression
+Evaluation: How will you evaluate your models?
+○
+We will split the dataset into training and test set(80/20).
+○
+Analyze feature importance to understand which traffic characteristics best
+distinguish VPN and non-VPN flows.
+Deliverable: Clean Jupyter Notebook: fully executable from start to finish includes all
+data processing, model training, evaluation and visualization inline.
+Learning objective: What are you expecting to learn from your project?
+○
+We aim to understand which network features(packet size, timing, protocol
+patterns) are most effective for identifying VPN usage.
